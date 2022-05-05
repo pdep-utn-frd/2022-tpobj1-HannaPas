@@ -1,0 +1,9 @@
+import robot.*
+
+
+ test "pasa el puntaje" {
+
+	contador.sumar()
+	contador.sumar()
+	assert.equals("2",contador.text())
+}
